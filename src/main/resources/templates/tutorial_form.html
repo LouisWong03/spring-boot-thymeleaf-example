@@ -16,7 +16,7 @@
   <div th:replace="fragments/header :: header"></div>
 
   <div class="container-fluid">
-    <h2 class="text-center">[[${pageTitle}]]</h2>
+    <h2 class="text-center">[[${pageTitle}]] - Updated by Choong Zhen Hoong</h2>
 
     <div class="my-3">
       <form th:action="@{/tutorials/save}" method="post" enctype="multipart/form-data" th:object="${tutorial}"
